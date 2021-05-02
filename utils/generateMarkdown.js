@@ -57,7 +57,7 @@ function generateMarkdown(data) {
 
   ## Media
   ${data.media}
-  ![Click this video to watch the mock-up:](./utils/readme-generator-vid.mov)
+  [Click this link to watch the mock-up video.](./utils/readme-generator-vid.mov)
   
   ## Installation
   ${data.installation}

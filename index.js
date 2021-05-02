@@ -9,6 +9,8 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [
 
+    // under 'type', the default type is actually input, so this code is unnecessary.
+
     {
         name: 'title',
         message: 'What is the Title of your project?',
@@ -53,8 +55,9 @@ const questions = [
 
     {
         name: 'licensure',
-        message: 'How is this project licensed?',
+        message: 'Which type of license does this project have?',
         type: 'input',
+        choices: ['MIT', 'WTFPL', 'None'],
     },
 
     {

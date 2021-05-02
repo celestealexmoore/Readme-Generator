@@ -75,3 +75,10 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+
+//Description
+// Generating a quality README.md file is im
+// perative for every repository, but takes time that developers coul
+// d otherwise be spending, well...developing. This template gives de
+// velopers a solid shortcut for the nagging gruntwork.

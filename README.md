@@ -13,11 +13,11 @@
 
   * [Contact](#Contact)
 
-  * [Status](#Project Status)
+  * [Status](Status)
 
 
   ## Description
-  Generating a quality README.md file is imperative for every repository, but takes time that developers could otherwise be spending, well...developing. This template gives developers a solid shortcut for the nagging gruntwork.
+  Generating a quality README.md file is imperative for every repository, but takes time that developers could otherwise be spending, well...developing. This template gives developers a solid shortcut for the nagging grunt-work.
 
   ## Media
   

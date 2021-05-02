@@ -39,19 +39,17 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [decription](#Description)
+  * [Decription](#Description)
 
-  * [media](#Media)
+  * [Media](#Media)
 
-  * [installation](#Installation)
+  * [Installation](#Installation)
 
-  * [contributors](#Contributors)
+  * [Contributors](#Contributors)
 
-  * [contact](#Contact)
+  * [Contact](#Contact)
 
-  * (#Future Development)
-
-  * [projectStatus](#Project Status)
+  * [Status](#Project Status)
 
 
   ## Description
@@ -60,15 +58,15 @@ function generateMarkdown(data) {
   ## Media
   ${data.media}
   
-  ## Installation Instruction
+  ## Installation
   ${data.installation}
 
   ## Contributors
-  ${data.contributors}
+  This project was created by ${data.contributors}.
 
   ## Contact
-  If you have any questions about this repository, email ${data.contact}:
-  ${data.email}
+  If you have any questions about this repository, contact ${data.contact} via GitHub or reach out via email:
+  ${data.email}.
 
 
   ## Plans for Future Development
@@ -81,3 +79,6 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+
+// 

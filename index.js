@@ -48,15 +48,15 @@ const questions = [
     },
 
     {
-        name: 'futureDevelopment',
-        message: 'What are your ideas for future development of this project?',
+        name: 'email',
+        message: 'What is your email?',
         type: 'input',
     },
 
     {
         name: 'licensure',
         message: 'Which type of license does this project have?',
-        type: 'input',
+        type: 'list',
         choices: ['MIT', 'WTFPL', 'None'],
     },
 

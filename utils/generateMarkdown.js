@@ -18,8 +18,7 @@ function renderLicenseLink(license) {
     return `\n* [License](#license)\n`
   }
 }
-
-// the \n is to make sure nothing is around it.
+// the \n is a line break.
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string

@@ -3,7 +3,7 @@
 
   ## Table of Contents
 
-  * [Decription](#Description)
+  * [Description](#Description)
 
   * [Media](#Media)
 

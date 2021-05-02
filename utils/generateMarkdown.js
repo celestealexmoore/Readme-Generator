@@ -68,10 +68,6 @@ function generateMarkdown(data) {
   If you have any questions about this repository, contact ${data.contact} via GitHub or reach out via email:
   ${data.email}.
 
-
-  ## Plans for Future Development
-  ${data.futureDevelopment}
-
   ## Project Status
   ${data.projectStatus}
 
@@ -79,6 +75,3 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
-
-
-// 

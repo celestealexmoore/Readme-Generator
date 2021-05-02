@@ -3,8 +3,9 @@
 function renderLicenseBadge(license) {
   if(license !== 'None'){
     return '[![License: WTFPL](https://img.shields.io/badge/License-${license}.svg)]'
+  }else{
+    return '';
   }
-  return '';
 }
 
 //This does not need an 'else' statement, because 'return' takes the place of else.
@@ -16,6 +17,8 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== 'None'){
     return `\n* [License](#license)\n`
+  }else{
+    return '';
   }
 }
 // the \n is a line break.
@@ -23,22 +26,57 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-
+  if (license !== 'None'){
+    return `## License
+    This project is licensed under the ${license} license`;
+  }else{
+    return '';
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.licensure)}
 
-  $(renderLicenseBadge)(data.licensure)
+  ## Table of Contents
 
-  ##Table of Contents
-  $(data.description)
-  $(data.media)
-  $(data.installation)
-  $(data.contact)
-  $(data.futureDevelopment)
-  $(data.projectStatus)
+  * [decription](#Description)
+
+  * [media](#Media)
+
+  * [installation](#Installation)
+
+  * [contributors](#Contributors)
+
+  * [contact](#Contact)
+
+  * [projectStatus](#Project Status)
+
+  * [futureDevelopment](#Future Development)
+
+
+  ## Description
+  ${data.description}
+
+  ## Media
+  ${data.media}
+  
+  ## Installation Instruction
+  ${data.installation}
+
+  ## Contacts
+
+  If you have any questions about this repository, contact me at:
+  ${data.email}
+
+  ${data.contact}
+
+  ## Plans for Future Development
+  ${data.futureDevelopment}
+
+  ## Project Status
+  ${data.projectStatus}
 
 `;
 }

@@ -39,7 +39,7 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Decription](#Description)
+  * [Description](#Description)
 
   * [Media](#Media)
 
@@ -49,7 +49,7 @@ function generateMarkdown(data) {
 
   * [Contact](#Contact)
 
-  * [Status](#Project Status)
+  * [Status](Status)
 
 
   ## Description

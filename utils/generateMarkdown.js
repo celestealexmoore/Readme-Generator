@@ -10,8 +10,6 @@ function renderLicenseBadge(license) {
 
 //This does not need an 'else' statement, because 'return' takes the place of else.
 
-
-
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
@@ -51,9 +49,9 @@ function generateMarkdown(data) {
 
   * [contact](#Contact)
 
-  * [projectStatus](#Project Status)
+  * (#Future Development)
 
-  * [futureDevelopment](#Future Development)
+  * [projectStatus](#Project Status)
 
 
   ## Description
@@ -65,12 +63,13 @@ function generateMarkdown(data) {
   ## Installation Instruction
   ${data.installation}
 
-  ## Contacts
+  ## Contributors
+  ${data.contributors}
 
-  If you have any questions about this repository, contact me at:
+  ## Contact
+  If you have any questions about this repository, email ${data.contact}:
   ${data.email}
 
-  ${data.contact}
 
   ## Plans for Future Development
   ${data.futureDevelopment}

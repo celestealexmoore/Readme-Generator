@@ -1,4 +1,4 @@
-# README generator
+# Sophia Marjorie
   [![License: WTFPL](https://img.shields.io/badge/License-${license}.svg)]
 
   ## Table of Contents
@@ -6,8 +6,6 @@
   * [Description](#Description)
 
   * [Media](#Media)
-
-  * [Installation](#Installation)
 
   * [Contributors](#Contributors)
 
@@ -17,13 +15,17 @@
 
 
   ## Description
-  Generating a quality README.md file is imperative for every repository, but takes time that developers could otherwise be spending, well...developing. This template gives developers a solid shortcut for the nagging grunt-work.
+  This is a website for my incredibly talented sister, Sophia, who is a hairstylist in Houston, Texas. I am attempting to re-create her existing site with improvements to the design, navigation and overall user experience.
 
   ## Media
-   [Click this link to watch the mock-up video.](./utils/readme-generator-vid.mov)
+
+  # Wireframe
   
-  ## Installation
-  To install, make sure the code is cloned and install inquirer along with other necessary dependencies. In the folder via the command line, type 'node index.js' and follow the on-screen prompts. Upon entry of the last input, the user should see the success message, "Generating README.md file."
+  [Click this link to watch the mock-up video.](../assets/images/wireframe.png)
+
+  # Deployed Site
+  Coming Soon!
+  
 
   ## Contributors
   This project was created by Celeste Moore.
@@ -33,5 +35,5 @@
   celestealexmoore@gmail.com.
 
   ## Project Status
-  Completed
+  In Progress
 
